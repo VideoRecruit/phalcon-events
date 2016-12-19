@@ -1,0 +1,13 @@
+{
+    "name": "videorecruit/phalcon-events",
+    "type": "library",
+    "description": "Integration of Kdyby/Events into Phalcon Framework",
+    "keywords": ["phalcon", "events"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Lukas Tomek",
+            "email": "tomeklukas@gmail.com"
+        }
+    ]
+}
