@@ -62,7 +62,7 @@ class EventsExtension
 	private function loadManager(array $config)
 	{
 		$container = $this->di;
-		$tagName = self::EVENT_MANAGER;
+		$tagName = self::TAG_SUBSCRIBER;
 
 		$container->setShared(self::EVENT_MANAGER, function () use ($container, $tagName) {
 			$services = $container->getServicesByTag($tagName);
