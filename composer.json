@@ -9,5 +9,17 @@
             "name": "Lukas Tomek",
             "email": "tomeklukas@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "kdyby/events": "~3.0",
+        "videorecruit/phalcon-di-tags": "dev-feature-draft"
+    },
+    "autoload": {
+        "psr-4": {
+            "VideoRecruit\\": "src/"
+        },
+        "classmap": [
+            "src/Phalcon/Events/exceptions.php"
+        ]
+    }
 }
