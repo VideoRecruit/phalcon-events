@@ -71,6 +71,8 @@ class EventsExtension
 			foreach ($services as $service) {
 				$eventsManager->addEventSubscriber($service->resolve());
 			}
+
+			return $eventsManager;
 		});
 	}
 }
